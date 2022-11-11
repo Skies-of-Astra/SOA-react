@@ -24,7 +24,7 @@ const ColorTile = (props) => {
         ) : null}
       </div>
       <div className="item-c">{props.tokenId}</div>
-      <p className="item-b">{props.children}</p>
+      <p className="item-b text_align_center">{props.children}</p>
     </div>
   );
 };

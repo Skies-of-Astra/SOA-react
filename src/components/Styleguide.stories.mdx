@@ -10,18 +10,20 @@ import ColorTile from "./ColorTile.js";
         color: #FFF;
     }
 
-    .sbdocs-p, .sbdocs-h2, .sbdocs-h3 {
-        color: #9b9b9b;
+    .sbdocs-p, .sbdocs-h2, .sbdocs-h3 , .sbdocs-li {
+        color: #EEEEEE;
     }
 
     .sbdocs-h1 {
         color: #FFF;
-        margin-bottom: 2rem;
+        font-size:4rem;
+        margin-bottom: 4rem;
         
     }
     
     .sbdocs-p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        line-height: 1.6em;
     }
 
 
@@ -36,7 +38,7 @@ import ColorTile from "./ColorTile.js";
         margin:0;
         width: 100%;
         border-top: 1px solid #EDEDED !important;
-        margin-bottom: 2rem;
+        margin-bottom: 8rem;
     }
 
     .color_tile {
@@ -87,52 +89,85 @@ import ColorTile from "./ColorTile.js";
 
     .grid_card {
         display: grid;
-        grid-template-columns: 16rem 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        column-gap: 2rem;
+        column-gap: clamp(2rem, 20vw, 10rem);
         grid-template-areas: 
             "a c"
             "b .";
-            
+    }
 
+    .grid_card div {
+        font-size: 1.8rem;
     }
     .item-a {
         grid-area: a;
     }
     .item-b {
         grid-area: b;
+        text-align: center;
     }
     .item-c {
         align-self: center;
         grid-area: c;
     }
+    .margin_bottom_med {
+        margin-bottom: 5rem;
+    }
+
+    .width-50 {
+        max-width: 50%;
+    }
 `}
 </style>
 
+<img src="assets/soa_logo_2.png" />
+<hr />
+
 # Our design system
 
+<div className="width-60 margin_bottom_med">
+
 This design system represents the source of truth for all of Skies of Astra's digital channels.
+
+The SOA Design System includes resources to create user interfaces consistent with the SOA design language. Instead of focusing on the minutae, developers can focus on application logic, while designers can focus on user experience and flows.
+
+</div>
 
 <hr />
 
 ## Design token naming
 
-Once a token has been selected see the id in the URL for the full token name.
+<p className="margin_bottom_med">
+  Once a token has been selected see the id in the URL for the full token name.
+</p>
 
 <hr className="section" />
 
-# Colours
+# Color
 
 <div className="flex_col margin_bottom_default flex_align_start">
   <ColorTile color="rgba(200, 200, 255, 0.5)" tokenId="--color-primary">
     Primary
   </ColorTile>
+  <ColorTile color="#FFFFFF" tokenId="--color-primary-label">
+    Primary label
+  </ColorTile>
   <ColorTile color="rgba(200, 200, 255, 0.8)" tokenId="--color-primary-hover">
     Primary hover
   </ColorTile>
-  <ColorTile color="#FFFFFF">Secondary</ColorTile>
-  <ColorTile color="#ededed">Secondary hover</ColorTile>
-  <ColorTile color="#000000">Background</ColorTile>
+  <ColorTile color="#FFFFFF" tokenId="--color-secondary">
+    Secondary
+  </ColorTile>
+  <ColorTile color="#000000" tokenId="--color-secondary-label">
+    Secondary
+  </ColorTile>
+  <ColorTile color="#ededed" tokenId="--color-secondary-hover">
+    Secondary hover
+  </ColorTile>
+  <ColorTile color="#00020E" tokenId="--color-background">
+    Background
+  </ColorTile>
 </div>
 
 <hr className="section" />
@@ -141,19 +176,19 @@ Once a token has been selected see the id in the URL for the full token name.
 
 ## Heading large
 
-<Story id="title-h1--default-view" />
+<Story id="title-h1--left" />
 
 <hr />
 
 ## Heading Medium
 
-<Story id="title-h2--default" />
+<Story id="title-h2--left" />
 
 <hr />
 
 ## Heading Small
 
-<Story id="title-h3--default-view" />
+<Story id="title-h3--left" />
 
 <hr />
 
@@ -181,7 +216,7 @@ Once a token has been selected see the id in the URL for the full token name.
 
 <hr />
 
-## Parter carousel
+## Partner carousel
 
 <Story id="motion-partners--default" />
 

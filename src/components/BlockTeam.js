@@ -10,28 +10,21 @@ const BlockTeam = () => {
         <TitleH1 cssClass="text_align_center" label="Meet the team" />
         <div className="flex_row margin_bottom_large m-flex-wrap-on flex-justify-between flex-no-shrink flex_align_center ios_scroll">
           <CardCircle
-            cssClass="flex_col soa_image_carousel animate_parallax carousel_team flex-justify-between soa_image_carousel_team padding-small"
             title="Milo"
             subTitle="Creative Director"
             src="assets/img_team_01.jpg"
           />
-
           <CardCircle
-            cssClass="flex_col soa_image_carousel animate_parallax carousel_team flex-justify-between soa_image_carousel_team padding-small"
             title="Fab"
             subTitle="Art Director"
             src="assets/img_team_02.jpg"
           />
-
           <CardCircle
-            cssClass="flex_col soa_image_carousel animate_parallax carousel_team flex-justify-between soa_image_carousel_team padding-small"
             title="Ahmet"
             subTitle="Web3 Strategist"
             src="assets/img_team_03.jpg"
           />
-
           <CardCircle
-            cssClass="flex_col soa_image_carousel animate_parallax carousel_team flex-justify-between soa_image_carousel_team padding-small"
             title="Lech"
             subTitle="Technical Director"
             src="assets/img_team_03.jpg"

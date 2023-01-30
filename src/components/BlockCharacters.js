@@ -2,8 +2,7 @@ import TitleH1 from "./TitleH1";
 import Paragraph from "./Paragraph";
 import ImgWrapper from "./ImgWrapper";
 import DividerBlock from "./DividerBlock";
-
-import ActionClick from "./ActionClick";
+import ButtonImage from "./ButtonImage";
 
 const BlockCharacters = (props) => {
   return (
@@ -16,75 +15,32 @@ const BlockCharacters = (props) => {
           attributes.
         </Paragraph>
         <div className="m_flex_row overflow_hidden margin_bottom_large m-flex-wrap-on flex-justify-center">
-          <ActionClick
-            cssClass="soa_image_carousel animate_parallax carousel_chars"
+          <ButtonImage
             callBack={props.callBack}
-            callBackArgs={0}
-          >
-            <ImgWrapper
-              tagID={0}
-              cssClassDiv=""
-              cssClassImg=""
-              src="assets/img_nighflyer.png"
-              key={0}
-            />
-          </ActionClick>
+            imageURL="assets/img_nighflyer.png"
+            index={0}
+          />
+          <ButtonImage
+            callBack={props.callBack}
+            imageURL="assets/img_astrian.png"
+            index={1}
+          />
+          <ButtonImage
+            callBack={props.callBack}
+            imageURL="assets/img_creep.png"
+            index={2}
+          />
+          <ButtonImage
+            callBack={props.callBack}
+            imageURL="assets/img_rogue.png"
+            index={3}
+          />
 
-          <ActionClick
-            cssClass="soa_image_carousel animate_parallax carousel_chars"
+          <ButtonImage
             callBack={props.callBack}
-            callBackArgs={1}
-          >
-            <ImgWrapper
-              tagID={1}
-              cssClassDiv=""
-              cssClassImg=""
-              src="assets/img_astrian.png"
-              key={1}
-            />
-          </ActionClick>
-
-          <ActionClick
-            cssClass="soa_image_carousel animate_parallax carousel_chars"
-            callBack={props.callBack}
-            callBackArgs={2}
-          >
-            <ImgWrapper
-              tagID={2}
-              cssClassDiv=""
-              cssClassImg=""
-              src="assets/img_creep.png"
-              key={2}
-            />
-          </ActionClick>
-
-          <ActionClick
-            cssClass="soa_image_carousel animate_parallax carousel_chars"
-            callBack={props.callBack}
-            callBackArgs={3}
-          >
-            <ImgWrapper
-              tagID={3}
-              cssClassDiv=""
-              cssClassImg=""
-              src="assets/img_rogue.png"
-              key={3}
-            />
-          </ActionClick>
-
-          <ActionClick
-            cssClass="soa_image_carousel animate_parallax carousel_chars"
-            callBack={props.callBack}
-            callBackArgs={4}
-          >
-            <ImgWrapper
-              tagID={4}
-              cssClassDiv=""
-              cssClassImg=""
-              src="assets/img_lost.png"
-              key={4}
-            />
-          </ActionClick>
+            imageURL="assets/img_lost.png"
+            index={4}
+          />
         </div>
         <ImgWrapper
           tagID=""

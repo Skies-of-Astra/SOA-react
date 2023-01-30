@@ -5,7 +5,7 @@
 
 const CardCircle = (props) => {
   return (
-    <div className={props.cssClass}>
+    <div className="flex_col soa_image_carousel animate_parallax carousel_team flex-justify-between soa_image_carousel_team padding-small">
       <img className="margin_bottom_2rem" src={props.src} alt="circle" />
       <div className="text_align_center">
         <h4 className="margin_bottom_XS">{props.subTitle}</h4>

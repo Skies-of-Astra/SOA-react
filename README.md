@@ -13,4 +13,25 @@ The figma library can be accessed [here](https://www.figma.com/file/zYKUfjSn9QEm
 
 Please contact lechwojas@gmail.com for access.
 
+## Libraries / API's
+This project uses the following technolgies:
+* React
+* Storybook
+* Leaflet.js
+
+## Setup
+To run this project, clone the repo:
+
+```
+$ cd ../repofolder
+$ npm start
+```
+
+## To do
+* Add new components to storybook
+
+
+--
+lechwojas@gmail.com
+
 

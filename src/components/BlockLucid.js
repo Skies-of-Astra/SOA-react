@@ -1,10 +1,10 @@
 import CompLucidBackground from "./CompLucidBackground";
-import AnimationLucid from "./AnimationLucid";
-import Paragraph from "./Paragraph";
-import TitleH1 from "./TitleH1";
-import TitleH3 from "./TitleH3";
-import DividerBlock from "./DividerBlock";
-import ImgWrapper from "./ImgWrapper";
+import AnimationLucid from "./AnimationLucid/AnimationLucid";
+import Paragraph from "./Paragraph/Paragraph";
+import TitleH1 from "./TitleH1/TitleH1";
+import TitleH3 from "./TitleH3/TitleH3";
+import DividerBlock from "./DividerBlock/DividerBlock";
+import ImgWrapper from "./ImageWrapper/ImgWrapper";
 
 const BlockLucid = (props) => {
   return (

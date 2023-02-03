@@ -1,5 +1,5 @@
-import TitleH2 from "./TitleH2";
-import Paragraph from "./Paragraph";
+import TitleH2 from "./TitleH2/TitleH2";
+import Paragraph from "./Paragraph/Paragraph";
 
 const BlockIntro = (props) => {
   return (

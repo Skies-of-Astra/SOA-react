@@ -1,6 +1,6 @@
 // YourComponent.stories.js|jsx
 
-import Paragraph from "./Paragraph";
+import Paragraph from "./Paragraph.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,7 +8,7 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "Paragraph",
+  title: "Typography/Paragraph",
   component: Paragraph,
   decorators: [
     (Story) => (

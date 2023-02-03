@@ -1,7 +1,7 @@
-import TitleH1 from "./TitleH1";
-import Paragraph from "./Paragraph";
-import ImgWrapper from "./ImgWrapper";
-import DividerBlock from "./DividerBlock";
+import TitleH1 from "./TitleH1/TitleH1";
+import Paragraph from "./Paragraph/Paragraph";
+import ImgWrapper from "./ImageWrapper/ImgWrapper";
+import DividerBlock from "./DividerBlock/DividerBlock";
 import ButtonImage from "./ButtonImage";
 
 const BlockCharacters = (props) => {

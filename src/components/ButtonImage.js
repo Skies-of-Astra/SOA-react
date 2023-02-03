@@ -1,4 +1,4 @@
-import ImgWrapper from "./ImgWrapper";
+import ImgWrapper from "./ImageWrapper/ImgWrapper";
 import ActionClick from "./ActionClick";
 
 const ButtonImage = (props) => {

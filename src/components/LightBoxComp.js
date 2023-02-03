@@ -1,8 +1,8 @@
 // import React from 'react';
-import ImgWrapper from "./ImgWrapper";
-import TitleH2 from "./TitleH2";
-import Paragraph from "./Paragraph";
-import QuoteEncyclopedia from "./QuoteEncyclopedia";
+import ImgWrapper from "./ImageWrapper/ImgWrapper";
+import TitleH2 from "./TitleH2/TitleH2";
+import Paragraph from "./Paragraph/Paragraph";
+import QuoteEncyclopedia from "./Quote/QuoteEncyclopedia";
 import ButtonClose from "./ButtonClose";
 
 const LightBoxComp = (props) => {

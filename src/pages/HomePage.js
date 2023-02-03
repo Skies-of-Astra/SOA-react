@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Nav from "../components/Nav";
+import Nav from "../components/Nav/Nav";
 import BlockIntro from "../components/BlockIntro";
 import BlockParallax from "../components/BlockParallax";
 import BlockLucid from "../components/BlockLucid";
@@ -10,7 +10,7 @@ import BlockWorld from "../components/BlockWorld";
 import BlockPartners from "../components/BlockPartners";
 import BlockTeam from "../components/BlockTeam";
 import BlockFooter from "../components/BlockFooter";
-import ImgWrapper from "../components/ImgWrapper";
+import ImgWrapper from "../components/ImageWrapper/ImgWrapper";
 import BlockTest from "../components/BlockTest";
 // import ButtonBackTop from "../components/ButtonBackTop";
 

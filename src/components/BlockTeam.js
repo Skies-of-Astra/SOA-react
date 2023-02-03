@@ -1,6 +1,6 @@
-import TitleH1 from "./TitleH1";
-import DividerBlock from "./DividerBlock";
-import CardCircle from "./CardCircle";
+import TitleH1 from "./TitleH1/TitleH1";
+import DividerBlock from "./DividerBlock/DividerBlock";
+import CardCircle from "./CardCircle/CardCircle";
 
 const BlockTeam = () => {
   return (

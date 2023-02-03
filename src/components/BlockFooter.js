@@ -1,7 +1,7 @@
-import ImgWrapper from "./ImgWrapper";
-import DividerBlock from "./DividerBlock";
-import Paragraph from "./Paragraph";
-import TitleH3 from "./TitleH3";
+import ImgWrapper from "./ImageWrapper/ImgWrapper";
+import DividerBlock from "./DividerBlock/DividerBlock";
+import Paragraph from "./Paragraph/Paragraph";
+import TitleH3 from "./TitleH3/TitleH3";
 
 const BlockFooter = () => {
   return (

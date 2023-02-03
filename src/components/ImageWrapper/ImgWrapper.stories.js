@@ -1,6 +1,6 @@
 // YourComponent.stories.js|jsx
 
-import ImgWrapper from "./ImgWrapper";
+import ImgWrapper from "./ImgWrapper.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,7 +8,7 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "Image container",
+  title: "Images/Container",
   component: ImgWrapper,
   decorators: [
     (Story) => (

@@ -1,6 +1,6 @@
 // YourComponent.stories.js|jsx
 
-import TitleH1 from "./TitleH1";
+import QuoteEncyclopedia from "./QuoteEncyclopedia.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,11 +8,11 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "Title H1",
-  component: TitleH1,
+  title: "Patterns/Encyclopedia quote",
+  component: QuoteEncyclopedia,
   decorators: [
     (Story) => (
-      <div style={{ margin: "2rem 0" }}>
+      <div style={{ margin: "3em", width: "40%" }}>
         <Story />
       </div>
     ),
@@ -20,20 +20,13 @@ export default {
 };
 
 //👇 We create a “template” of how args map to rendering
-const Template = (args) => <TitleH1 {...args} />;
+const Template = (args) => <QuoteEncyclopedia {...args} />;
 
-export const Left = {
+export const Default = {
   args: {
-    cssClass: "",
-    label: "Skies of Astra",
-    //👇 The args you need here will depend on your component
-  },
-};
-
-export const Center = {
-  args: {
-    cssClass: "text_align_center",
-    label: "Skies of Astra",
+    children:
+      "‘...Some fragments of their previous self remain, but without intervention, they remain under the curse…’",
+    caption: "Astral Encyclopedia",
     //👇 The args you need here will depend on your component
   },
 };

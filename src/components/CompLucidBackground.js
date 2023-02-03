@@ -1,5 +1,5 @@
 import React from "react";
-import ImgWrapper from "./ImgWrapper";
+import ImgWrapper from "./ImageWrapper/ImgWrapper";
 
 const CompLucidBackground = () => {
   return (

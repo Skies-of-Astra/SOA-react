@@ -1,7 +1,7 @@
-import TitleH1 from "./TitleH1";
-import Paragraph from "./Paragraph";
-import DividerBlock from "./DividerBlock";
-import Button from "./Button";
+import TitleH1 from "./TitleH1/TitleH1";
+import Paragraph from "./Paragraph/Paragraph";
+import DividerBlock from "./DividerBlock/DividerBlock";
+import Button from "./Button/Button";
 
 const BlockWorld = () => {
   return (

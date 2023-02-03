@@ -1,6 +1,5 @@
 // YourComponent.stories.js|jsx
-
-import Nav from "./Nav";
+import AnimationPartners from "./AnimationPartners.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,14 +7,14 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "Navigation",
-  component: Nav,
+  title: "Motion/Partners",
+  component: AnimationPartners,
 };
 
 //👇 We create a “template” of how args map to rendering
-const Template = (args) => <Nav {...args} />;
+const Template = (args) => <AnimationPartners {...args} />;
 
-export const DefaultView = {
+export const Default = {
   args: {
     //👇 The args you need here will depend on your component
   },

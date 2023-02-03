@@ -1,6 +1,6 @@
 // YourComponent.stories.js|jsx
 
-import ButtonNav from "./ButtonNav";
+import DividerBlock from "./DividerBlock.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,17 +8,24 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "Button nav",
-  component: ButtonNav,
+  title: "Images/Divider",
+  component: DividerBlock,
+  decorators: [
+    (Story) => (
+      <div style={{ marginTop: "3em", position: "relative" }}>
+        <Story />
+      </div>
+    ),
+  ],
 };
 
 //👇 We create a “template” of how args map to rendering
-const Template = (args) => <ButtonNav {...args} />;
+const Template = (args) => <DividerBlock {...args} />;
 
 export const Default = {
   args: {
-    cssClass: "",
-    label: "Home",
+    src: "assets/img_line_bottom.png",
+    cssClass: "img_bottom_line",
     //👇 The args you need here will depend on your component
   },
 };

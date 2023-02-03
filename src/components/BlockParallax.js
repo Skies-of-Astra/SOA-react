@@ -1,5 +1,5 @@
-import ImgWrapper from "./ImgWrapper";
-import DividerBlock from "./DividerBlock";
+import ImgWrapper from "./ImageWrapper/ImgWrapper";
+import DividerBlock from "./DividerBlock/DividerBlock";
 
 const BlockParallax = () => {
   return (

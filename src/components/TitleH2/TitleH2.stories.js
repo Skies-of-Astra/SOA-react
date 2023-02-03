@@ -1,6 +1,6 @@
 // YourComponent.stories.js|jsx
 
-import TitleH3 from "./TitleH3";
+import TitleH2 from "./TitleH2.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,12 +8,12 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "Title H3",
-  component: TitleH3,
+  title: "Typography/Title H2",
+  component: TitleH2,
 };
 
 //👇 We create a “template” of how args map to rendering
-const Template = (args) => <TitleH3 {...args} />;
+const Template = (args) => <TitleH2 {...args} />;
 
 export const Left = {
   args: {
@@ -26,6 +26,14 @@ export const Left = {
 export const Center = {
   args: {
     cssClass: "text_align_center",
+    label: "Skies of Astra",
+    //👇 The args you need here will depend on your component
+  },
+};
+
+export const AnimatedGlow = {
+  args: {
+    cssClass: "text_align_center glow-effect",
     label: "Skies of Astra",
     //👇 The args you need here will depend on your component
   },

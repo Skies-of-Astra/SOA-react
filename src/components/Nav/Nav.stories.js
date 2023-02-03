@@ -1,6 +1,6 @@
 // YourComponent.stories.js|jsx
 
-import CardCircle from "./CardCircle";
+import Nav from "./Nav.js";
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,20 +8,15 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "Card - circle",
-  component: CardCircle,
+  title: "Patterns/Navigation",
+  component: Nav,
 };
 
 //👇 We create a “template” of how args map to rendering
-const Template = (args) => <CardCircle {...args} />;
+const Template = (args) => <Nav {...args} />;
 
-export const Default = {
+export const DefaultView = {
   args: {
-    cssClass:
-      "flex_col soa_image_carousel animate_parallax carousel_team flex-justify-between soa_image_carousel_team padding-small",
-    title: "Milo",
-    subTitle: "Creative Director",
-    src: "assets/img_team_01.jpg",
     //👇 The args you need here will depend on your component
   },
 };

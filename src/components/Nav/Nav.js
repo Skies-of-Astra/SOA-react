@@ -1,5 +1,5 @@
-import ButtonNav from "./ButtonNav";
-import ButtonWithIcon from "./ButtonWithIcon";
+import ButtonNav from "../ButtonNav/ButtonNav";
+import ButtonWithIcon from "../ButtonWithIcon/ButtonWithIcon";
 
 const Nav = (props) => {
   return (

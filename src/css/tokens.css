@@ -1,0 +1,26 @@
+html {
+  /* Colors */
+  --content-width: 10%;
+  --color-secondary: #fff;
+  --color-secondary-label: #000;
+  --color-secondary-hover: #aaa;
+  --color-primary: rgba(200, 200, 255, 0.5);
+  --color-primary-label: #fff;
+  --color-primary-hover: rgba(200, 200, 255, 0.8);
+  --color-background: #00020e;
+  /* Border / corner radius */
+  --border-radius-default: 0;
+  --border-radius-large: 50%;
+  --border-radius-50: 50px;
+  --border-radius-small: 1rem;
+
+  --animation-random-time: 20s;
+  height: 100%;
+  background-color: var(--color-background);
+  /*background-image: url(../assets/img_body.png);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  font-size: 12px;
+}

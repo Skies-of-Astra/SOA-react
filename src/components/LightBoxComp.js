@@ -3,7 +3,7 @@ import ImgWrapper from "./ImageWrapper/ImgWrapper";
 import TitleH2 from "./TitleH2/TitleH2";
 import Paragraph from "./Paragraph/Paragraph";
 import QuoteEncyclopedia from "./Quote/QuoteEncyclopedia";
-import ButtonClose from "./ButtonClose";
+import ButtonClose from "./Button/ButtonClose.js";
 
 const LightBoxComp = (props) => {
   return (

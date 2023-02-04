@@ -11,7 +11,7 @@ import BlockPartners from "../components/BlockPartners";
 import BlockTeam from "../components/BlockTeam";
 import BlockFooter from "../components/BlockFooter";
 import ImgWrapper from "../components/ImageWrapper/ImgWrapper";
-import BlockTest from "../components/BlockTest";
+
 // import ButtonBackTop from "../components/ButtonBackTop";
 
 const Homepage = () => {
@@ -51,7 +51,6 @@ const Homepage = () => {
       <BlockWorld />
       <BlockPartners />
       <BlockTeam />
-      <BlockTest />
       <BlockFooter />
     </div>
   );

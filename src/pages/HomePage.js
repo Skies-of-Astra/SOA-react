@@ -12,11 +12,12 @@ import BlockTeam from "../components/BlockTeam";
 import BlockFooter from "../components/BlockFooter";
 import ImgWrapper from "../components/ImageWrapper/ImgWrapper";
 
-// import ButtonBackTop from "../components/ButtonBackTop";
+import ButtonBackTop from "../components/Button/ButtonBackTop";
 
 const Homepage = () => {
   const [showCharBox, setShowCharBox] = useState(false);
   const [charNum, setCharNum] = useState(0);
+  // const [showBackButton, setShowBackButton] = useState(true);
 
   const HideCharBox = () => {
     setShowCharBox(false);
@@ -30,6 +31,7 @@ const Homepage = () => {
   return (
     <div>
       {/* {showBackButton ? <ButtonBackTop /> : ""} */}
+      <ButtonBackTop />
       {showCharBox ? (
         <LightBoxChars callBack={HideCharBox} charNum={charNum} />
       ) : (

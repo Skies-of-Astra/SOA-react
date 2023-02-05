@@ -52,23 +52,23 @@ li {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: var(--font-size-xl);
   margin-bottom: 6.4rem;
   line-height: 6rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: var(--font-size-large);
   margin-bottom: 3.2rem;
 }
 
 h3 {
-  font-size: clamp(1rem, 3.6rem, 3.6rem);
+  font-size: var(--font-size-med);
   margin-bottom: 3.2rem;
 }
 
 h5 {
-  font-size: 2rem;
+  font-size: var(--font-size-default);
   margin-bottom: 2.2rem;
   line-height: 2rem;
 }
@@ -85,7 +85,7 @@ body {
 
 p {
   font-family: "Quicksand", sans-serif;
-  font-size: 2rem;
+  font-size: var(--font-size-default);
   line-height: 3rem;
   font-weight: 300;
   /*	margin-bottom: 1rem;*/
@@ -1022,35 +1022,35 @@ width: 70%;
 }
 
 .margin_bottom_default {
-  margin-bottom: 3rem;
+  margin-bottom: var(--margin-default);
 }
 
 .margin_bottom_2rem {
-  margin-bottom: 2rem;
+  margin-bottom: var(--margin-small);
 }
 
 .margin_bottom_XS {
-  margin-bottom: 1rem;
+  margin-bottom: var(--margin-xs);
 }
 
 .margin_bottom_med {
-  margin-bottom: 5rem;
+  margin-bottom: var(--margin-med);
 }
 
 .margin_bottom_large {
-  margin-bottom: 8rem;
+  margin-bottom: var(--margin-large);
 }
 
 .margin_top_med {
-  margin-top: 5rem;
+  margin-top: var(--margin-med);
 }
 
 .margin_bottom_XL {
-  margin-bottom: 16rem;
+  margin-bottom: var(--margin-xl);
 }
 
 .margin-right-default {
-  margin-right: 4rem;
+  margin-right: var(--margin-right);
 }
 
 .margin-left-right-default {
@@ -1079,7 +1079,7 @@ width: 70%;
 }
 
 .padding-large {
-  padding: 8rem;
+  padding: var(--padding-large);
 }
 
 .padding-small {
@@ -1087,27 +1087,27 @@ width: 70%;
 }
 
 .padding-vertical-large {
-  padding: 8rem 0;
+  padding: var(--padding-large) 0;
 }
 
 .padding-vertical-med {
-  padding: 4rem 0;
+  padding: var(--padding-large) 0;
 }
 
 .padding-right-large {
-  padding-right: 8rem;
+  padding-right: var(--padding-large);
 }
 
 .padding-left-large {
-  padding-left: 8rem;
+  padding-left: var(--padding-large);
 }
 
 .padding-right-med {
-  padding-right: 4rem;
+  padding-right: var(--padding-med);
 }
 
 .padding-left-med {
-  padding-left: 4rem;
+  padding-left: var(--padding-med);
 }
 
 .padding-left-20 {
@@ -1119,19 +1119,19 @@ width: 70%;
 }
 
 .padding-top-med {
-  padding-top: 4rem;
+  padding-top: var(--padding-med);
 }
 
 .padding-top-large {
-  padding-top: 8rem;
+  padding-top: var(--padding-large);
 }
 
 .padding-bottom-large {
-  padding-bottom: 8rem;
+  padding-bottom: var(--padding-large);
 }
 
 .padding-bottom-med {
-  padding-bottom: 4rem;
+  padding-bottom: var(--padding-med);
 }
 
 /*----------------------------------*/
@@ -1141,31 +1141,31 @@ width: 70%;
 /* Content Height / Widths */
 
 .height-100 {
-  height: 100%;
+  height: var(--max-width-100);
 }
 
 .width-50 {
-  max-width: 50%;
+  max-width: var(--max-width-50);
 }
 
 .width-30 {
-  max-width: 30%;
+  max-width: var(--max-width-30);
 }
 
 .width-80 {
-  max-width: 80%;
+  max-width: var(--max-width-80);
 }
 
 .width-60 {
-  max-width: 60%;
+  max-width: var(--max-width-60);
 }
 
 .width-100 {
-  max-width: 100%;
+  max-width: var(--max-width-100);
 }
 
 .content-width {
-  width: 100%;
+  width: var(--max-width-100);
   max-width: 1400px;
 }
 

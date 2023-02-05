@@ -1,0 +1,31 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+import ColorTile from "./docs/ColorTile.js";
+import "../css/tokens.css";
+
+<Meta title="Styleguide/Tokens/Colors" />
+
+# Colors
+
+<div className="flex_col margin_bottom_default flex_align_start">
+  <ColorTile color="rgba(200, 200, 255, 0.5)" tokenId="--color-primary">
+    Primary
+  </ColorTile>
+  <ColorTile color="#FFFFFF" tokenId="--color-primary-label">
+    Primary label
+  </ColorTile>
+  <ColorTile color="rgba(200, 200, 255, 0.8)" tokenId="--color-primary-hover">
+    Primary hover
+  </ColorTile>
+  <ColorTile color="#FFFFFF" tokenId="--color-secondary">
+    Secondary
+  </ColorTile>
+  <ColorTile color="#000000" tokenId="--color-secondary-label">
+    Secondary
+  </ColorTile>
+  <ColorTile color="#ededed" tokenId="--color-secondary-hover">
+    Secondary hover
+  </ColorTile>
+  <ColorTile color="#00020E" tokenId="--color-background">
+    Background
+  </ColorTile>
+</div>

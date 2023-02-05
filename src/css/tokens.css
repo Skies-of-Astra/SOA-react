@@ -8,19 +8,52 @@ html {
   --color-primary-label: #fff;
   --color-primary-hover: rgba(200, 200, 255, 0.8);
   --color-background: #00020e;
+
   /* Border / corner radius */
   --border-radius-default: 0;
   --border-radius-large: 50%;
   --border-radius-50: 50px;
   --border-radius-small: 1rem;
 
+  /* Content widths */
+  --max-width-30: 30%;
+  --max-width-50: 50%;
+  --max-width-60: 60%;
+  --max-width-80: 80%;
+  --max-width-100: 100%;
+  --max-width-870: 870px;
+
+  /* margins */
+  --margin-default: 3rem;
+  --margin-small: 2rem;
+  --margin-xs: 1rem;
+  --margin-med: 5rem;
+  --margin-large: 8rem;
+  --margin-xl: 16rem;
+  --margin-right: 4rem;
+
+  /* Padding */
+  --padding-large: 8rem;
+  --padding-med: 4rem;
+
+  /* Font sizes */
+  --font-size-xl: 6rem;
+  --font-size-large: 4rem;
+  --font-size-med: clamp(1rem, 3.6rem, 3.6rem);
+  --font-size-small: 1rem;
+  --font-size-default: 2rem;
+
+  /* Animations */
   --animation-random-time: 20s;
+
+  /* Global properties */
   height: 100%;
   background-color: var(--color-background);
-  /*background-image: url(../assets/img_body.png);*/
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   scroll-behavior: smooth;
+
+  /* Rem scale */
   font-size: 12px;
 }

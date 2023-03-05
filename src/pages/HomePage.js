@@ -5,7 +5,7 @@ import BlockIntro from "../components/BlockIntro";
 import BlockParallax from "../components/BlockParallax";
 import BlockLucid from "../components/BlockLucid";
 import BlockCharacters from "../components/BlockCharacters";
-import LightBoxChars from "../components/LightBoxChars";
+import LightBoxChars from "../components/Lightbox/LightBoxChars";
 import BlockWorld from "../components/BlockWorld";
 import BlockPartners from "../components/BlockPartners";
 import BlockTeam from "../components/BlockTeam";

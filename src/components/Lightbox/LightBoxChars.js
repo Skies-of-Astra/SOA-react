@@ -1,6 +1,6 @@
-import { CreateUniqueId } from "../hooks/UniqueID";
+import { CreateUniqueId } from "../../hooks/UniqueID";
 
-import LightBoxComp from "./LightBoxComp";
+import LightBoxComp from "../LightBoxComp";
 
 const LightBoxChars = (props) => {
   //   const [props.charNum, setprops.charNum] = useState(0);

@@ -5,8 +5,7 @@ import "../css/storybook.css";
 
 <Meta title="Styleguide/Intro" />
 
-<img src="assets/soa_logo_2.png" />
-<hr />
+<img className="sg-img" src="assets/soa_logo_crop.png" />
 
 # Our design system
 
@@ -18,12 +17,32 @@ The SOA Design System includes resources to create user interfaces consistent wi
 
 </div>
 
-<hr />
+## Design system structure
 
-## Design token naming
-
-<p className="margin_bottom_med">
-  Once a token has been selected see the id in the URL for the full token name.
+<p className="margin_bottom_med width-60">
+  The design system at it's heart is a collection of basic building blocks that
+  allow for complex patterns to be built. By using atomic principles we can
+  logically split the design system into 3 core units:{" "}
+  <b>tokens, components and patterns.</b>
 </p>
 
-<hr className="section" />
+### Tokens
+
+<p className="margin_bottom_med width-60">
+  We define tokens as the raw style values of UI elements, such as colors, sizes
+  and spacing. Tokens form the base (atomic) layer of the design system.
+</p>
+
+### Components
+
+<p className="margin_bottom_med width-60">
+  The simplest building blocks to create the UI, such as text blocks, titles and
+  buttons. These are built by combining tokens together.
+</p>
+
+### Patterns
+
+<p className="margin_bottom_med width-60">
+  Patterns define specific UI elements that are required by the app, these are
+  contructed by combining multiple components together.
+</p>

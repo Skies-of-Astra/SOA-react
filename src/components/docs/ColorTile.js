@@ -23,8 +23,10 @@ const ColorTile = (props) => {
           </div>
         ) : null}
       </div>
-      <div className="item-c">{props.tokenId}</div>
       <p className="item-b text_align_center">{props.children}</p>
+      <div className="item-c">{props.tokenId}</div>
+
+      <p className="item-a">{props.color}</p>
     </div>
   );
 };

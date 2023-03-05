@@ -31,7 +31,7 @@ export const Center = {
   },
 };
 
-export const AnimatedGlow = {
+export const GlowEffect = {
   args: {
     cssClass: "text_align_center glow-effect",
     label: "Skies of Astra",
